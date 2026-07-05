@@ -12,4 +12,4 @@ jobs:
         run: echo "Hello GitHub Enterprise!!"
         
       - name: External Call using cURL
-        run: curl https://api.ipify.org
+        run: curl -v https://api.ipify.org
